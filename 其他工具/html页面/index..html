@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 1px;
+            padding: 1px;
+        }
+       .grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap: 5px;
+        }
+        .span-col-4{grid-column: span 6 / auto;
+        width: 100%;
+        height: 75px;
+        
+        
+        }
+        .span-col-2{grid-column: span 4 / auto;}
+        #div_shangp{
+            background-color: blue;
+            padding: 15px 15px 15px 15px;
+            width: 200px;
+            height: 200px;
+        }
+        .biaoti_h1{
+
+            font-size: 45px;
+            font-family: 楷体;
+            font-weight: bold;
+            text-shadow:0px 0px 8px #fff, 0px 0px 42px #f72, 0px 0px 72px #f84,0px 0px 150px #fa5;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div id="div_shangp">Item 2</div>
+        <div id="div_shangp">Item 3</div>
+        <div id="div_shangp">Item 4</div>
+        <div id="div_shangp">Item 5</div>
+        <div id="div_shangp">Item 6</div>
+        <div id="div_shangp">Item 7</div>
+        <div id="div_shangp">Item 8</div>
+      </div>
+
+
+</body>
+</html>
